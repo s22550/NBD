@@ -1,0 +1,25 @@
+1. MATCH allPaths=(p:peak{name:'Sandakphu'})<-[r:trek*]-(t:town{name:'Darjeeling'}) 
+   return min(nodes(allPaths)) as shortestPath
+2. MATCH allPaths=(p:peak{name:'Sandakphu'})<-[r*{winter: 'true'}]-(t:town{name:'Darjeeling'}) 
+   return min(nodes(allPaths)) as shortestPath
+3. MATCH allpath=(p:peak{name:'Sandakphu'})<-[path1*]-(v:village)<-[path2*]-(t:town{name:'Darjeeling'}) 
+   return path1, path2, reduce(totalDistance = 0, n in path1 | totalDistance + n.distance) + reduce(totalDistance = 0, n in path2 | totalDistance + n.distance) as distance
+   order by distance
+4. Match(a1:Flight)-[r:DESTINATION]->(a2:Airport) return a2, count(r) as flights order by flights
+5. match path = (astart:Airport {name: 'LAX'})-[r:ORIGIN|DESTINATION*..5]-(aend:Airport)
+   with path, reduce(total = 0, n in [x in nodes(path) where 'Flight' in labels(x)] | total + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as totalPrice
+   where totalPrice < 3000
+   return path, totalPrice order by totalPrice
+6. match path = (astart:Airport {name: 'LAX'})-[r*..8]-(aend:Airport{name: "DAY"})
+   with path, reduce(total = 0, n in [x in nodes(path) where 'Flight' in labels(x)] | total + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as totalPrice
+   return path, totalPrice order by totalPrice
+7. match path = (astart:Airport {name: 'LAX'})-[r*..8]-(aend:Airport{name: "DAY"})
+   with path, reduce(total = 0, n in [x in nodes(path) where 'Flight' in labels(x)] | total + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as totalPrice
+   return path, totalPrice order by totalPrice limit 1
+8. match path = (astart:Airport {name: 'LAX'})-[r*..8]-(aend:Airport{name: "DAY"})
+   with path, reduce(total = 0, n in [x in nodes(path) where 'Flight' in labels(x)] | total + [(n)<-[:ASSIGN]-(ticket {class:'business'}) | ticket.price][0]) as totalPrice
+   return path, totalPrice order by totalPrice limit 1
+9. !!!!!!!!!!!!!!!!!!!!!!!!!!!!! brak !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+10. match path=(a1:Airport)<-[:ORIGIN]-(f1:Flight)-[:DESTINATION]->(a2:Airport)<-[:ORIGIN]-(f2:Flight)-[:DESTINATION]->(a3:Airport)
+    with path, reduce(total = 0, n in [x in nodes(path) where 'Flight' in labels(x)] | total + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as totalPrice
+    return path, totalPrice order by totalPrice limit 2

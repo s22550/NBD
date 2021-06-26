@@ -1,0 +1,43 @@
+﻿[
+  {
+    "shortestPath": [
+      {
+        "identity": 3,
+        "labels": [
+          "peak"
+        ],
+        "properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      },
+      {
+        "identity": 2,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+"name": "BhikeBhanja"
+        }
+      },
+      {
+        "identity": 0,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Rimbik"
+        }
+      },
+      {
+        "identity": 1,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Darjeeling"
+        }
+      }
+    ]
+  }
+]
