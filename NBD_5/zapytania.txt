@@ -1,0 +1,34 @@
+1. MATCH (movies:Movie) return movies
+2. MATCH (movies:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN movies,hugoWeavingMovies
+3. MATCH (hugomovies:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:DIRECTED]-(directorworkedwithhugo) RETURN directorworkedwithhugo
+4. MATCH (hugomovies:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]-(coactors) RETURN coactors
+5. match (movie:Movie {title: "The Matrix"})<-[:ACTED_IN]-(actor)-[:ACTED_IN]->(otherMovie) RETURN otherMovie
+6. match (person:Person)-[:ACTED_IN]->(allmovies) with person.name as person, count(allmovies) as moviecount where moviecount >= 1 return person, moviecount
+7. match (director:Person)-[:DIRECTED]->(movies)<-[WROTE]-(writer: Person) where director.name = writer.name return director.name
+8. MATCH (hugomovies:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies)<-[:ACTED_IN]-(keanumovies:Person {name: "Keanu Reeves"}) RETURN movies
+
+9A. 
+CREATE (CaptainAmerica:Movie {title:'Captain America: Pierwsze starcie', released:2011, tagline:'Captain America: Pierwsze starcie'})
+CREATE (Chris:Person {name:'Chris Evans', born:1990})
+CREATE (Hayley:Person {name:'Hayley Atwell', born:1967})
+CREATE (Sebastian:Person {name:'Sebastian Stan', born:1961})
+CREATE (Tommy:Person {name:'Tommy Lee Jones', born:1960})
+CREATE (Hugo:Person {name:'Hugo Weaving', born:1967})
+CREATE (Dominic:Person {name:'Dominic Cooper', born:1965})
+CREATE (Richard:Person {name:'Richard Armitrage', born:1952})
+CREATE (Joe:Person {name:'Joe Johnston', born:1965})
+CREATE (Christopher:Person {name:'Christopher Markus', born:1952})
+CREATE
+(Chris)-[:ACTED_IN {roles:['Captain America']}]->(CaptainAmerica),
+(Hayley)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica),
+(Sebastian)-[:ACTED_IN {roles:['Bucky']}]->(CaptainAmerica),
+(Tommy)-[:ACTED_IN {roles:['Colonel Chester Phillips']}]->(CaptainAmerica),
+(Hugo)-[:ACTED_IN {roles:['Red Skull']}]->(CaptainAmerica),
+(Dominic)-[:ACTED_IN {roles:['Howard Stark']}]->(CaptainAmerica),
+(Richard)-[:ACTED_IN {roles:['Heinz Kruger']}]->(CaptainAmerica),
+(Dominic)-[:DIRECTED]->(CaptainAmerica),
+(Richard)-[:WROTE]->(CaptainAmerica)
+
+9B.
+MATCH (movie:Movie {title: "Captain America: Pierwsze starcie"})-[*]-(related)
+RETURN related

@@ -1,0 +1,1082 @@
+﻿[
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Armitrage",
+"born": 1952
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dominic Cooper",
+"born": 1965
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dominic Cooper",
+"born": 1965
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dominic Cooper",
+"born": 1965
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Armitrage",
+"born": 1952
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Armitrage",
+"born": 1952
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Armitrage",
+"born": 1952
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dominic Cooper",
+"born": 1965
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dominic Cooper",
+"born": 1965
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dominic Cooper",
+"born": 1965
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Armitrage",
+"born": 1952
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Armitrage",
+"born": 1952
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Captain America: Pierwsze starcie",
+"title": "Captain America: Pierwsze starcie",
+"released": 2011
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tommy Lee Jones",
+"born": 1960
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1990
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1967
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sebastian Stan",
+"born": 1961
+      }
+    }
+  },
+  {
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hayley Atwell",
+"born": 1967
+      }
+    }
+  }
+]
