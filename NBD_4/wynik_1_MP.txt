@@ -1,0 +1,23 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b518fc02-6bdc-4529-b13d-1ecc9d1c81e3") }
+MongoDB server version: 4.4.6
+{
+	"results" : [
+		{
+			"_id" : "Male",
+			"value" : {
+				"sex" : "Male",
+				"weight" : 70.01178275792452
+			}
+		},
+		{
+			"_id" : "Female",
+			"value" : {
+				"sex" : "Female",
+				"weight" : 70.11331573604069
+			}
+		}
+	],
+	"ok" : 1
+}

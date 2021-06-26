@@ -1,0 +1,7 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("70ba18b8-c9dc-4d83-92ca-9120187d1007") }
+MongoDB server version: 4.4.6
+{"t":{"$date":"2021-06-12T10:44:25.012Z"},"s":"E",  "c":"-",        "id":22779,   "ctx":"main","msg":"file [{filename}] doesn't exist","attr":{"filename":"zapytanie_3_MP.js"}}
+failed to load: zapytanie_3_MP.js
+exiting with code -3
