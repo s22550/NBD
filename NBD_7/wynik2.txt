@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj/ZdK4IIpTImMfKYOvjeYsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22550>; rel="up"
+Last-Modified: Thu, 24 Jun 2021 18:34:37 GMT
+ETag: "yyGqRrj3GtiUWgIk5bMRY"
+Date: Thu, 24 Jun 2021 18:39:09 GMT
+Content-Type: application/json
+Content-Length: 48
+
+{brand: BMW, model: M4, cc: 3000, price: 500000}

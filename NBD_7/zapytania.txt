@@ -1,0 +1,73 @@
+1.
+
+curl -X PUT -i -H "Content-Type:application/json" `
+-d '{"brand": "BMW", "model": "M2", "cc": 3000, "price": 300000}' `
+http://localhost:8098/buckets/s22550/keys/BMW_M2
+
+curl -X PUT -i -H "Content-Type:application/json" `
+-d '{"brand": "Audi", "model": "A3", "cc": 2000, "price": 100000}' `
+http://localhost:8098/buckets/s22550/keys/Audi_A3
+
+curl -X PUT -i -H "Content-Type:application/json" `
+-d '{"brand": "Mercedes", "model": "GLE", "cc": 3000, "price": 400000}' `
+http://localhost:8098/buckets/s22550/keys/Mercedes_GLE
+
+curl -X PUT -i -H "Content-Type:application/json" `
+-d '{"brand": "BMW", "model": "M4", "cc": 3000, "price": 500000}' `
+http://localhost:8098/buckets/s22550/keys/BMW_M4
+
+2.
+
+curl -X GET -i `
+-H 'Accept:application/json' `
+http://localhost:8098/buckets/s22550/keys/BMW_M4
+
+3. Dodanie własności "used"
+
+curl -X PUT -i `
+-H 'Content-Type:application/json' `
+-d '{"brand": "BMW", "model": "M4", "cc": 3000, "price": 500000, "used": false}' `
+http://localhost:8098/buckets/s22550/keys/BMW_M4
+
+4. Usunięcie własności "cc"
+
+curl -X PUT -i `
+-H 'Content-Type:application/json' `
+-d '{"brand": "BMW", "model": "M4", "price": 500000, "used": false}' `
+http://localhost:8098/buckets/s22550/keys/BMW_M4
+
+5. Zmiana własności "price"
+
+curl -X PUT -i `
+-H 'Content-Type:application/json' `
+-d '{"brand": "BMW", "model": "M4", "price": 600000, "used": false}' `
+http://localhost:8098/buckets/s22550/keys/BMW_M4
+
+6.
+
+curl -X DELETE -i `
+http://localhost:8098/buckets/s22550/keys/BMW_M4
+
+7.
+
+curl -X GET -i `
+-H 'Accept:application/json' `
+http://localhost:8098/buckets/s22550/keys/FIAT
+
+8.
+
+curl -X POST -i `
+-H 'Content-Type:application/json' `
+-d '{"brand": "Porsche"}' `
+http://localhost:8098/buckets/s22550/keys
+
+9.
+
+curl -X GET -i `
+-H 'Accept:application/json' `
+http://localhost:8098/buckets/s22550/keys/7ptvmpURSHbYs9DJ7lWSKpbThdQ
+
+10.
+
+curl -X DELETE -i `
+http://localhost:8098/buckets/s22550/keys/7ptvmpURSHbYs9DJ7lWSKpbThdQ

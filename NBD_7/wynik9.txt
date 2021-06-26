@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj/Z2swKEUpkzGNlOBTkeYsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22550>; rel="up"
+Last-Modified: Thu, 24 Jun 2021 19:02:26 GMT
+ETag: "H1lbCg7067xge7xvZOK1y"
+Date: Thu, 24 Jun 2021 19:04:05 GMT
+Content-Type: application/json
+Content-Length: 16
+
+{brand: Porsche}

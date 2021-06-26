@@ -1,0 +1,22 @@
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Thu, 24 Jun 2021 18:46:01 GMT
+Content-Type: application/json
+Content-Length: 0
+
+// sprawdzenie
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj/ZdK4IIpTInMfK8NLP8xZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22550>; rel="up"
+Last-Modified: Thu, 24 Jun 2021 18:46:01 GMT
+ETag: "l7yWuy6NOPTdh9JWIGImX"
+Date: Thu, 24 Jun 2021 18:46:05 GMT
+Content-Type: application/json
+Content-Length: 51
+
+{brand: BMW, model: M4, price: 500000, used: false}
+
